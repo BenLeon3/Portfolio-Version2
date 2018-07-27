@@ -1,0 +1,56 @@
+.header {
+    text-align: center;
+    padding: 40px;
+}
+
+.name {
+    margin-top: 7px;
+}
+
+.side-nav-button {
+    z-index: 9999;
+    top: 5px;
+    position: fixed;
+}
+
+.sideIcons, .menu {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 20pt;
+}
+.sideIcons {
+    padding-top: 0%;
+}
+.left-align {
+    padding-top: 30px;
+}
+.twitter {
+    padding-top: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.git {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.about-me-background{
+    background-image: url("../images/Autumn-Landscape.jpg");
+}
+
+.git-work-image{
+    height: 200px;
+    width: 359px;
+    overflow: hidden;
+}
+
+.git-work-content{
+    height: 150px;
+    width: 315px;
+}
+
+/* .card-title{
+    padding: 10px;
+} */
