@@ -40,9 +40,17 @@
     background-image: url("../images/Autumn-Landscape.jpg");
 }
 
+.portfolio-background{
+    background-image: url("../images/wild_oliva.png");
+}
+
+.contact-background{
+    background-image: url("../images/nasty_fabric.png");
+}
+
 .git-work-image{
     height: 200px;
-    width: 359px;
+    width: 100%;
     overflow: hidden;
 }
 

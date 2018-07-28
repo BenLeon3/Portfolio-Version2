@@ -11,18 +11,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <!-- Let browser know website is optimized for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<!-- Original CSS -->
+	<!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href"assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<Body class="about-me-background">
-
+<Body class="contact-background">
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper black">
+            <!-- <a href="#!" class="brand-logo">Logo</a> -->
             <ul class="right hide-on-med-and-down">
                 <li><a href="https://www.instagram.com/b3n_zilla/"class="insta"><img class="instagram-logo" src="assets/images/instagram-logo.png" style="height: 70px; width:70px;"></a></li>
                 <li><a href="https://twitter.com/StillaMania"class="twitter"><img class="twitter-logo" src="assets/images/twitter-logo.png" style="height: 56px; width:56px;"></a></li>
@@ -55,47 +55,55 @@
 </div>
 
 <div class="container about-me" style="margin-top: 30px;">
-    <div class="row">
-        <div class="col s12 m12">
-            <div class="card white">
-                <div class="card-content black-text">
-                    <div class=" col s12 m3 card-image" id="mypic">
-                        <image src="assets/images/BLR.jpg" alt="Ben Leon" style="width:200px;height:250px;"></image>
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="card white">
+                    <div class="card-content black-text">
+                        <span class="card-title">Contact</span>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input placeholder="Your Name" id="name" type="text" class="validate">
+                                        <label for="name">Name</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">email</i>
+                                        <input placeholder="JohnDoe@email.com" id="email" type="email" class="validate">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">textsms</i>
+                                        <input placeholder="Comment" id="comments" type="text" class="validate">
+                                        <label for="comment">Comment</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s2">
+                                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                            <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                        <span class="card-title">Benjamin Leon</span>
-                        <p>
-                            My name is Benjamin Leon, I am an independent web developer from Los Angeles.  I also work for the Los Angeles Unified School 
-                            District at Nueva Vista Elementary where I work as an IT Support Technician.  I have worked for LAUSD since 
-                            the year 2000.
-                        <br>
-                        <br>
-                            My interest in the tech field started in high school where I was enrolled in the Tech Academy at 
-                            Elizabeth Learning Center where I learned basic HTML and computer repair.  In 2010 I graduated from 
-                            California State University Los Angeles with a BS in Business Administration with an option in Finance.  
-                            Although I learned many useful skills and enjoyed learning about the business world my passion has always 
-                            been in the tech field.  In 2014 I enrolled in a computer repair class to further my computer skills and In 
-                            2015 I was hired by LAUSD as an IT Support Technician. 
-                        <br>
-                        <br>
-                            I have always had a natural curiosity about how things work wether it be a machine, the stock market or a 
-                            computer program so it is no surprise that coding has drawn my attention.  My interest in coding began in high 
-                            school where I was taught basic HTML to build websites.  I furthered my interest in programming during the days 
-                            of MySpace were I would spend hours customizing my page using code from my favorite websites.  To build on my 
-                            coding skills in 2018 I enrolled in UCLA Extension’s Coding Bootcamp where I have become proficient in HTML, 
-                            JavaScript, CSS, Firebase and Node.js.
-                        </p>
-                </div>
                     <div class="card-action">
                         <a class="green-text" href="index.html">Home</a>
                         <a class="blue-text" href="portfolio.html">Portfolio</a>
                     </div>
+                </div>
             </div>
         </div>
-    </div>
- </div>   
+     </div>   
 
+<!-- jQuery -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
 <!-- Materialize -->
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
