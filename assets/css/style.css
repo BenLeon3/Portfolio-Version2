@@ -36,6 +36,11 @@
     padding-right: 30px;
 }
 
+.linked {
+    padding-top: 10px;
+    padding-right: 6px;
+}
+
 .about-me-background{
     background-image: url("../images/Autumn-Landscape.jpg");
 }
@@ -58,27 +63,3 @@
     height: 150px;
     width: 315px;
 }
-
-/* fallback */
-@font-face {
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: 400;
-    src: url(./font?) format('woff2');
-  }
-  
-  .material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    -webkit-font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
-  }
