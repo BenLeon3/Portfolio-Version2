@@ -6,15 +6,15 @@
 	<!-- Google Icon Font -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS -->
-    <link href"assets/css/reset.css">
     <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href"assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Let browser know website is optimized for mobile -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
-<Body>
+<Body class="contact-background">
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper black">
@@ -47,74 +47,57 @@
         <li><a href="portfolio.html" class="sideLinks blue-text" style="font-size: 20px;"><i class="material-icons sideIcons blue-text">code</i>Portfolio</a></li>
         <li><a href="#!" class="sideLinks purple-text" style="font-size: 20px;"><i class="material-icons sideIcons purple-text">camera</i>Photography</a></li>
         <li><a href="contact.html" class="sideLinks red-text" style="font-size: 20px;"><i class="material-icons sideIcons red-text">mail</i>Contact</a></li>
-        <br>
-        <br>
-        <li><div class="divider"></div></li>
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col s1">
-                    <li><a href="https://www.linkedin.com/in/benjamin-leon-373696162/" class="linked-side"><img class="left linked-in-logo-side" src="assets/images/linkedin.png" style="height: 25px; width:30px;"></a></li>
-                </div>
-                <div class="col s1">
-                    <li><a href="https://www.instagram.com/b3n_zilla/"class="insta-side"><img class="left instagram-logo-side" src="assets/images/instagram-logo.png" style="height: 40px; width:40px;"></a></li>
-                <div class="col s1">
-                    <li><a href="https://twitter.com/StillaMania"class="twitter-side"><img class="left twitter-logo-side" src="assets/images/twitter-logo.png" style="height: 26px; width:26px;"></a></li>
-                </div>
-                <div class="col s1">
-                    <li><a href="https://github.com/BenLeon3" class="git-side"><img class="left git-hub-logo-side" src="assets/images/git-logo.png" style="height: 27px; width:27px;"></a></li>
-                </div>
-            </div>
-        </div>
-
     </ul>
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons menu">menu</i></a>
 </div>
-<!-- Materialize Slider -->
-<div class="slider">
-    <ul class="slides">
-        <li>
-            <img src="assets/images/Autumn-Landscape.jpg">
-            <div class="caption center-align">
-                <h3>Benjamin Leon</h3>
-                <h5 class="light grey-text text-lighten-3">Welcome to my website</h5>
+
+<div class="container about-me" style="margin-top: 30px;">
+        <div class="row">
+            <div class="col s12 m12">
+                <div class="card white">
+                    <div class="card-content black-text">
+                        <span class="card-title">Contact</span>
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">account_circle</i>
+                                        <input placeholder="Your Name" id="name" name="name" type="text" class="validate">
+                                        <label for="name">Name</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">email</i>
+                                        <input placeholder="JohnDoe@email.com" id="email" name="email" type="email" class="validate">
+                                        <label for="email">Email</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">textsms</i>
+                                        <input placeholder="Comment" id="comments" name="comments" type="text" class="validate">
+                                        <label for="comment">Comment</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="input-field col s2">
+                                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                            <i class="material-icons right">send</i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <a class="green-text" href="index.html">Home</a>
+                        <a class="blue-text" href="portfolio.html">Portfolio</a>
+                    </div>
+                </div>
             </div>
-        </li>
-        <li>
-            <img src="assets/images/computer-script-programming-codebackground.jpg">
-            <div class="caption left-align">
-                <h3>Check out my web design portfolio</h3>
-                <a href="portfolio.html"><h5 class="light grey-text text-lighten-3">click here</h5></a>
-            </div>
-        </li>
-        <li>
-            <img src="assets/images/Sunflower-Field.jpg">
-            <div class="caption right-align">
-                <h3>Check out my photographs</h3>
-                <h5 class="light grey-text text-lighten-3">click here(Coming Soon)</h5>
-            </div>
-        </li>
-        <!-- <li>
-        <img src="assets/images/Autumn-Field.jpg">
-        <div class="caption center-align">
-            <h3>Enjoy Your Visit!</h3>
-            <h5 class="light grey-text text-lighten-3">Blah Blah Blah.</h5>
         </div>
-        </li> -->
-    </ul>
-</div>
-
-
-<!-- <script>
-    $(document).ready(function(){
-
-        $("#search-button").on("click", function(){
-            var movie_name = $("#movie-name").val().trim();
-            window.open('movie-details.html?name='+movie_name);
-            console.log("index.html = ", movie_name);
-        })
-    })
-</script> -->
+     </div>   
 
 <!-- jQuery -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
